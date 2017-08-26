@@ -6,7 +6,4 @@ describe('maxConsecutiveOnes',function(){
     it('输出相连的1的最大数', function() {
         expect(maxConsecutiveOnes(nums)).to.be.equal(3)
     })
-    it('输出相连的1的最大数', function() {
-        expect(maxConsecutiveOnes(nums)).to.be.equal(3)
-    })
 })
