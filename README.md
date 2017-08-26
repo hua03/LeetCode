@@ -1,14 +1,28 @@
-# LeetCode解题思路
+# LeetCode解题思路（JS版）
 
 <!-- TOC depthFrom:2 depthTo:3 -->
 
 - [数组](#数组)
-    - [561. Array Partition I](#561-array-partition-i)
-    - [566. Reshape the Matrix](#566-reshape-the-matrix)
+  - [485. Max Consecutive Ones](#485-max-consecutive-ones)
+  - [561. Array Partition I](#561-array-partition-i)
+  - [566. Reshape the Matrix](#566-reshape-the-matrix)
 
 <!-- /TOC -->
 
 ## 数组
+
+### 485. Max Consecutive Ones
+
+> - [原题地址](https://leetcode.com/problems/max-consecutive-ones/description/) 
+> - [解法](JavaScript/485-Max-Consecutive-Ones.js)
+
+给一个二进制数组，找到连续的1的最大数量
+
+#### 思路
+
+1. 将数组转化为字符串，
+2. 用0当分隔符，将字符串转化成数组
+3. 遍历数组，找到最大长度
 
 ### 561. Array Partition I
 
